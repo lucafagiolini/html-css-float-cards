@@ -40,8 +40,6 @@ main {
     margin: auto;
 
     padding-top: 10px;
-    padding-right: 200px;
-    padding-left: 200px;
     padding-bottom: 10px;
 
     margin-bottom: 30px;
@@ -54,7 +52,25 @@ main {
 .main-title-container {
     padding-top: 0;
     padding-bottom: 20px;
+
 }
+
+h1 {
+    color: #e53270;
+    font-weight: 900;
+    font-size: 250%;
+
+}
+
+.paragraph-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+}
+
 
 
 /* end main section */
