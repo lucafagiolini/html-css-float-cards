@@ -21,8 +21,9 @@ main {
 
 
     padding-top: 5%;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    padding-left: 5%;
 
     /* working highlight */
     border-color: black;
@@ -34,7 +35,7 @@ main {
 
 .main-container {
     width: 100%;
-    height: auto;
+
 
     margin: auto;
 
@@ -49,6 +50,12 @@ main {
     border-color: black;
 
 }
+
+.main-title-container {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
 
 /* end main section */
 
