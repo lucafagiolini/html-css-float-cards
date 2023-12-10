@@ -12,7 +12,7 @@ body {
 
 /* main section */
 main {
-    width: 75%;
+    width: 100%;
     height: auto;
 
     text-align: center;
@@ -29,6 +29,24 @@ main {
     border-style: solid;
     background-color: rgba(255, 2, 2, 0.278);
     /* working highlight */
+
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+
+    margin: auto;
+
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+
+    margin-bottom: 30px;
+
+    border-style: solid;
+    border-color: black;
 
 }
 
