@@ -6,8 +6,15 @@
     font-family: 'Nunito', sans-serif;
 }
 
+
 body {
     /* background-color: ##ffffff; */
+}
+
+.cleafix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* main section */
@@ -67,10 +74,6 @@ h1 {
 
 }
 
-/* .cleafix::after {
-    content: '';
-    display: table;
-} */
 
 /* cards section*/
 .cards-section {
