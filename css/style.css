@@ -18,30 +18,15 @@ body {
 }
 
 /* main section */
-main {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 300px;
-
-
-    padding-top: .5%;
-    padding-right: 5%;
-    padding-bottom: 4%;
-    padding-left: 5%;
-
-    /* working highlight */
-    /* border-color: black;
-    border-style: solid; */
-    /* background-color: rgba(255, 2, 2, 0.278); */
-    /* working highlight */
-
-}
 
 .main-container {
     max_width: 1366px;
 
 
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -51,6 +36,24 @@ main {
     /* border-color: black; */
 
 }
+
+
+main .main-container {
+    margin-bottom: 300px;
+
+
+    padding-right: 5%;
+    padding-left: 5%;
+
+    /* test */
+    /* border-color: black;
+    border-style: solid; */
+    /* background-color: rgba(255, 2, 2, 0.278); */
+    /* test */
+
+}
+
+
 
 .main-title-container {
     padding-top: 0;
