@@ -71,7 +71,13 @@ h1 {
 
 }
 
+/* cards-section*/
+.cards-section {
+    display: inline-block;
+    text-align: left;
+}
 
+/* end cards container */
 
 /* end main section */
 
