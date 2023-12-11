@@ -50,16 +50,20 @@ body {
 h1 {
     margin-bottom: 60px;
 
+    font-weight: 800;
+    font-size: xx-large;
+
     color: #e53270;
 
 }
 
-.paragraph {
-
+p {
     margin: auto;
-    padding-top: 50px;
+
     padding-bottom: 50px;
 
+    font-weight: 400;
+    font-size: larger;
 
 }
 
