@@ -81,6 +81,8 @@ h1 {
 
 /* cards */
 
+.card {}
+
 .card-container {
     float: left;
     width: calc(100% / 3);
