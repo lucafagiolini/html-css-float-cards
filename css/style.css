@@ -7,28 +7,26 @@
 }
 
 body {
-    background-color: ##ffffff;
+    /* background-color: ##ffffff; */
 }
 
 /* main section */
 main {
     width: 100%;
-    height: auto;
 
     text-align: center;
-    margin: auto;
-    margin-top: .5%;
+    margin-bottom: 300px;
 
 
-    padding-top: 5%;
+    padding-top: .5%;
     padding-right: 5%;
     padding-bottom: 4%;
     padding-left: 5%;
 
     /* working highlight */
-    border-color: black;
-    border-style: solid;
-    background-color: rgba(255, 2, 2, 0.278);
+    /* border-color: black;
+    border-style: solid; */
+    /* background-color: rgba(255, 2, 2, 0.278); */
     /* working highlight */
 
 }
@@ -44,8 +42,8 @@ main {
 
     margin-bottom: 30px;
 
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid; */
+    /* border-color: black; */
 
 }
 
@@ -71,13 +69,53 @@ h1 {
 
 }
 
-/* cards-section*/
+/* cards section*/
 .cards-section {
     display: inline-block;
     text-align: left;
 }
 
-/* end cards container */
+.card-container {
+    width: 400px;
+    height: 200px;
+
+    display: inline-block;
+
+    margin-bottom: 5%;
+
+    background-color: #100e16;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+    float: left;
+}
+
+.card-text-container {
+    margin-left: 210px;
+}
+
+.team-member-name {
+    font-weight: bold;
+    font-size: large;
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.team-member-role {
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.team-member-email {
+    color: #6ecbf2;
+    padding-top: 20px;
+}
+
+
+/* end cards section*/
 
 /* end main section */
 
