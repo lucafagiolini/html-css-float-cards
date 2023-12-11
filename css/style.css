@@ -8,6 +8,7 @@
 
 
 body {
+    background-color: #3e3655;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -69,7 +70,7 @@ h1 {
 }
 
 .paragraph {
-    width: 95%;
+
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -78,11 +79,7 @@ h1 {
 }
 
 
-/* cards section*/
-.cards-section {
-    display: inline-block;
-    text-align: left;
-}
+/* cards */
 
 .card-container {
     float: left;
