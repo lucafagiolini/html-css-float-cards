@@ -81,37 +81,32 @@ h1 {
 
 /* cards */
 
-.card {}
-
-.card-container {
+.card {
     float: left;
     width: calc(100% / 3);
-    height: 200px;
 
+    padding: 20px;
+    background-color: #ffffff;
+}
 
-    display: inline-block;
-
-    margin-bottom: 5%;
-
+.card .card-container {
     background-color: #100e16;
+
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.card-container .picture {}
-
-img {
-    float: left
+.card .picture {
+    float: left;
+    margin-right: 16px;
 }
 
-.card-container .card-text-container {
-    margin-left: 210px;
+.card .picture img {
+    display: block;
+
+    height: 120px;
+    width: auto;
 }
 
-.card-container .card-text-container .team-member-name {
-    font-weight: bold;
-    font-size: large;
-    color: #ffffff;
-    padding-top: 40px;
-}
 
 .team-member-role {
     color: #ffffff;
