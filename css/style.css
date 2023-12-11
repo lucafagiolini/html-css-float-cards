@@ -8,7 +8,7 @@
 
 
 body {
-    background-color: #3e3655;
+    background-color: #ffffff;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -47,16 +47,10 @@ body {
 
 
 
-.main-title-container {
-    padding-top: 0;
-    padding-bottom: 20px;
-
-}
-
 h1 {
+    margin-bottom: 60px;
+
     color: #e53270;
-    font-weight: 900;
-    font-size: 250%;
 
 }
 
@@ -96,6 +90,7 @@ h1 {
 
 .card .picture {
     float: left;
+
     margin-right: 16px;
 }
 
@@ -121,6 +116,10 @@ img {
 
 .card .card-text-container {
     color: white;
+}
+
+a {
+    color: #13abde;
 }
 
 
