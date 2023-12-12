@@ -107,15 +107,17 @@ img {
 }
 
 .card .card-text-container {
+    height: 120px;
+
     text-align: left;
 
-    padding: 16px 0;
+    padding: 15px 0;
 }
 
 .card .card-text-container>* {
     display: block;
 
-    margin-bottom: 0.4;
+    margin-bottom: 10px;
 }
 
 .card .card-text-container {
@@ -124,9 +126,12 @@ img {
 
 a {
     color: #13abde;
+    text-decoration: none;
 }
 
-
+/* .text-spacing {
+    margin-bottom: 0.4;
+} */
 
 /* end cards section*/
 
