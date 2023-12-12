@@ -89,7 +89,7 @@ p {
 .card .card-container {
     background-color: #100e16;
 
-    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.8);
 }
 
 .card .picture {
@@ -129,9 +129,7 @@ a {
     text-decoration: none;
 }
 
-/* .text-spacing {
-    margin-bottom: 0.4;
-} */
+
 
 /* end cards section*/
 
