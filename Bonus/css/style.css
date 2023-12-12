@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* reset */
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cleafix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* main section */
+
+.main-container {
+    max-width: 1366px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 40px 10px 20px;
+
+    text-align: center;
+
+    /* border-style: solid; */
+    /* border-color: black; */
+
+}
+
+
+/* main */
+/* test */
+/* border-color: black;
+    border-style: solid; */
+/* background-color: rgba(255, 2, 2, 0.278); */
+/* test */
+
+
+
+
+
+h1 {
+    margin-bottom: 60px;
+
+    font-weight: 800;
+    font-size: xx-large;
+
+    color: #e53270;
+
+}
+
+p {
+    margin: auto;
+
+    padding-bottom: 50px;
+
+    font-weight: 400;
+    font-size: larger;
+
+}
+
+
+/* cards */
+
+.card {
+    float: left;
+    width: calc(100% / 3);
+
+    padding: 20px;
+
+    border-radius: 30px;
+
+    background-color: #ffffff;
+}
+
+.card:nth-child(3n + 1) {
+    padding-left: 0
+}
+
+.card:nth-child(3n) {
+    padding-right: 0;
+}
+
+.card .card-container {
+    background-color: #100e16;
+
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+
+
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.8);
+}
+
+.card .picture {
+    float: left;
+
+    border-radius: 30px;
+
+    margin-right: 16px;
+}
+
+.card .picture,
+img {
+    display: block;
+
+    border-radius: 50%;
+
+    height: 120px;
+    width: auto;
+}
+
+.card .card-text-container {
+    height: 120px;
+
+    text-align: left;
+
+    padding: 15px 0;
+}
+
+.card .card-text-container>* {
+    display: block;
+
+    margin-bottom: 10px;
+}
+
+.card .card-text-container {
+    color: white;
+}
+
+a {
+    color: #13abde;
+    text-decoration: none;
+}
+
+
+
+/* end cards section*/
+
+/* end main section */
